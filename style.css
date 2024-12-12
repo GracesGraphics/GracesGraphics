@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+body{
+	font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+header{
+  text-align: center;
+  font-family: "Hurricane", cursive;
+  color: #bd8df1;
+}
+
+.logo{
+   margin: 0 auto;
+   display:block;
+}
+
+
+/* Website Links except the nav */
+a:link{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+a:hover{
+  color: #dbcced;
+}
+a:active{
+  color: white;
+}
+
+
+/* Navigation */
+nav{
+  background: linear-gradient(0deg, rgba(189,141,241,1) 0%, rgba(171,96,245,1) 50%, rgba(189,141,241,1) 75%, rgba(255,255,255,1) 100%);
+  padding: 4px;
+
+}
+
+nav ul{
+  list-style-type:none;
+  text-align:center;
+  margin:8px 0;
+  padding:0;
+}
+
+nav li{
+  display:inline;
+  padding: 5px;
+}
+
+nav a{
+  text-decoration:none;
+}
+
+nav a:link{
+  color:white;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  color:#dbcced;
+}
+nav a:active{
+  color:white;
+}
+
+.home-hero{
+  background-image: url(images/background.png);
+  background-size: cover;
+}
+.home-hero h1{
+  font-family: "Hurricane", cursive;
+  color: #ffffff;
+  font-size: 60px;
+  text-shadow: 3px 3px 3px #2B183B;
+  text-align: center;
+  padding: 50px 0;
+  margin: 0;
+  background-color:rgba(203,150,255,.5);
+}
+
+
+
+/* Main */
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+  
+}
+
+main h2{
+  color:#bd8df1;
+}
+
+h3{
+  color:#bd8df1;
+}
+
+h4{
+  color:#bd8df1;
+}
+
+.my-button:link{
+  color:white;
+  background-color:#bd8df1;
+  border-radius:50px;
+  padding:8px 15px;
+  margin: 50px;
+}
+
+.my-button:hover{
+  color:white;
+  background-color:#dbcced;
+  text-decoration:none;
+
+}
+
+.home-photo{
+  float: left;
+  max-width: 85%;
+  height: auto;
+  margin: 75px 30px 15px 15px;
+}
+
+.fa{
+  color:#bd8df1;
+  font-size:5em;
+}
+
+.gallery .preview{
+    width:100%
+    height:auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:100px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+
+
+canvas {
+      border: 2px solid #196609;
+      background-color: #6fbdfc;
+      }
+
+.myButton{
+  border: 1px solid #196609;
+  color: #196609;
+  background-color: #FEC8F3;
+}
+
+/* Footer */
+footer{
+  border-top: #bd8df1 3px solid;
+  text-align: left;
+  color: #ffffff;
+  background-color:#bd8df1;
+  padding-top:5px;
+}
+
+footer .fa{
+  color:white;
+  font-size:1em;
+}
+
+.footer-bottom{
+  background-color:#ab60f5;
+  text-align:center;
+  padding-bottom:3px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+}
+
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+	<meta name="description" content="The home page of Grace's Graphics, a digital student portfolio.">
+	<title>Grace's Graphics: Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<img src="images/gg-logo.png" alt="logo" height="100px" width="200px" class="img-fluid logo">
+	</header>
+
+	<nav>
+	    <ul>
+	       <li><a href="index.html">Home</a></li>
+	       <li><a href="resume.html">Resume</a></li>
+	       <li><a href="portfolio.html">Portfolio</a></li>
+	       <li><a href="game.html">Game</a></li>
+	    </ul>
+	</nav>
+
+	
+	<div class="home-hero">
+		<h1>Welcome to my portfolio</h1>
+	</div>
+
+
+	<main>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-6">
+					<img src="images/web-design.jpg" height="960" width="1280" alt="A photograph of a notebook, a pencil, a book on HTML and CSS, a laptop keyboard, and a headphone cord attached to the laptop." class="home-photo">
+				</div><!--closing column-->
+
+				<div class="col-sm-6">
+					<h2>Meet Grace</h2>
+					<br>
+					<p>My name is Grace and I am a student at Saint Paul College. I am majoring in an Associate of Science Degree in Computer Graphics and Visualization. I am planning to graduate in 2025 and hope I can find a job afterwards. This portfolio is a showcase of my student work. I made this portfolio using HTML and CSS, both of which I am currently learning about. I have also gained experience using...
+					<ul><li>Graphical web builders</li>
+					<li>Adobe software</li>
+					<li>DAWs</li>
+					<li>A little bit of Tumult Hype and Blender</li></ul>
+					I began using Photoshop at a young age and am now interested in pursuing a career in graphic design. I have become a certified Photoshop and Illustrator user since pursuing my current major. My other hobbies include playing video games, watching YouTube videos, cartoons and anime, and occasionally reading.</p>
+
+				</div><!--closing column-->
+				
+			</div><!--closing row-->
+
+			<br>
+
+			<div class="row">
+				<div class="col-sm-4">
+					<i class="fa fa-file-text" aria-hidden="true"></i> <br>
+					<h2>Resume</h2>
+					<p>Look at my experience.</p>
+					<a href="resume.html" class="my-button">Learn More</a>
+				</div><!--closing column-->
+
+				<div class="col-sm-4">
+					<i class="fa fa-folder-open" aria-hidden="true"></i> <br>
+					<h2>Portfolio</h2>
+					<p>See my work.</p>
+					<a href="portfolio.html" class="my-button">Learn More</a>
+				</div><!--closing column-->
+
+				<div class="col-sm-4">
+					<i class="fa fa-gamepad" aria-hidden="true"></i> <br>
+					<h2>Game</h2>
+					<p>Play my Javascript game.</p>
+					<a href="game.html" class="my-button">Learn More</a>
+				</div><!--closing column-->
+
+			</div><!--closing row-->
+
+			<br>
+
+			<div class="row">
+				<div class="col-sm-12">
+
+					<h2>Preview</h2>
+					<p>Here's a sample of some of my work.</p>
+
+					<div class="gallery">
+
+
+					   	<div class="preview">
+					        <img id="preview" src="images/flowers.jpg" style="display:block;margin:0 auto;" alt=""  height="400" width="400"/>
+					    </div>
+
+					    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/flowers.jpg" alt="A photograph of flowers in grayscale, except for a big flower recolored purple and smaller flowers recolored a light pink." />
+					        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/tshirt.jpg" alt="An illustration of a purple t-shirt with colorful shapes and 'Stay Cool' in neon text."  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/blender.png" alt="A 3D render of a house in snow." />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/cloth.jpg" alt="A clothing cloth design depicting white, dark brown, and pink rabbit heads repeating on a sky blue background." />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/hair.jpg" alt="A photograph of Grace from behind, all in grayscale except for her straight long blond hair. "  />
+
+				</div><!--closing column-->
+
+
+			</div><!--closing row-->
+
+		</div><!--closing container fluid-->
+	</main>
+
+	<footer>
+		<div class="container-fluid">
+
+			<div class="row">
+
+				<div class="col-sm-6">
+					<p>The works on this student portfolio have been necessarily resized and cropped from their original versions in order to fit the website dimensions.</p>
+				</div><!--closing column on upper footer-->
+
+				<div class="col-sm-6">
+					<h5>Contact Grace</h5>
+
+
+					<h6> <i class="footer fa fa-github" aria-hidden="true"></i> <a href="https://github.com/GracesGraphics">Github</a>  </h6>
+
+
+					<h6><i class="footer fa fa-envelope" aria-hidden="true"></i> <a href="mailto:gracigloo@gmail.com">Email</a>  </h6>
+				</div><!--closing column on upper footer-->
+
+			</div><!--closing row-->
+
+		</div><!--closing container fluid-->
+
+		<div class="footer-bottom">
+			<small>&copy; Grace Norback. All rights reserved.</small>
+		</div>
+	</footer>
+
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

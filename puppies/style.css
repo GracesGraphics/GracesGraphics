@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body{
+	font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #FFFEF9;
+}
+
+header{
+  text-align: center;
+  font-family: "Gochi Hand", sans-serif;
+  color: #DE7868;
+}
+
+h2{
+  font-family: "Gochi Hand", sans-serif;
+}
+
+h3{
+  font-family: "Gochi Hand", sans-serif;
+}
+
+h4{
+  text-align: center;
+  font-family: "Gochi Hand", sans-serif;
+}
+
+/* Website Links except the nav */
+a:link{
+  color: #FFA79D;
+}
+a:visited{
+  color: #FFA79D;
+}
+a:hover{
+  color: white;
+}
+a:active{
+  color: white;
+}
+
+
+/* Navigation */
+nav{
+  background-color: #FFA79D;
+  border-top: 4px solid #FFE5D1;
+  border-bottom: 4px solid #FFE5D1;
+  padding: 5px;
+}
+
+nav ul{
+  list-style-type:none;
+  text-align:center;
+  margin:8px 0;
+  padding:0;
+}
+
+nav li{
+  display:inline;
+  padding: 5px;
+}
+
+nav a{
+  text-decoration:none;
+}
+
+nav a:link{
+  color:white;
+}
+nav a:visited{
+  color:white;
+}
+nav a:hover{
+  color:white;
+}
+nav a:active{
+  color:white;
+}
+
+/* Main */
+main{
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+blockquote{
+  background-color:#eeeeee;
+  border-left:10px solid #FFE5D1;
+  padding:30px;
+}
+
+.home-hero{
+  background-image:url(images/header.jpg);
+  height:475px;
+  background-size:cover;
+  background-position:center;
+  color:#042837;
+  padding: 10px 10px 10px 30px;
+  border: solid 1px black;
+}
+
+img{
+  display:block;
+  margin:0 auto;
+  border: 1px black solid;
+}
+
+/* Footer */
+footer{
+  border-top: #FFA79D 2px solid;
+  text-align: center;
+  background-color: #FFE5D1;
+  padding: 4px;
+  color: #FFA79D;
+}
+
+.fa{
+  font-size: 2em;
+  color: #FFA79D;
+
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
