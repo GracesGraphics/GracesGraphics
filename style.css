@@ -178,20 +178,6 @@ canvas {
   background-color: #FEC8F3;
 }
 
-/* JavaScript Game changes for mobile */
-.mobile{
-  display:none;
-}
-@media only screen and (max-width: 768px){
-  .desktop{
-    display:none;
-  }
-  .mobile{
-    display: block;
-    touch-action: manipulation;
-  }
-}
-
 
 /* Footer */
 footer{
@@ -234,3 +220,19 @@ h1{
     font-size: 1.5em;
   }
 }
+
+/* JavaScript Game changes for mobile */
+.mobile{
+  display:none;
+}
+@media only screen and (max-width: 768px){
+  .desktop{
+    display:none;
+  }
+  .mobile{
+    display: block;
+    touch-action: manipulation;
+  }
+}
+
+
