@@ -94,7 +94,7 @@ main{
   padding: 20px; 
 }
 
-main h2{
+h2{
   color:#bd8df1;
 }
 
@@ -162,7 +162,7 @@ h4{
 .resume{
   border:1px solid #dddddd;
   box-shadow:2px 2px 2px rgba(0,0,0,.75);
-  padding:60px;
+  padding:100px;
   max-width:1000px;
 }
 
