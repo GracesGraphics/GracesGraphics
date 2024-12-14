@@ -40,8 +40,8 @@
       var canvasHeight = 360;
       /*Test to see if I have a screen less than 768 pixels and if so, change the canvas size */
       if (window.innerWidth < 750){
-       canvasWidth = 200;
-      canvasHeight= 200;
+       canvasWidth = 300;
+      canvasHeight= 300;
       }
 
 
@@ -58,7 +58,7 @@
       var myGameArea = {
           canvas : document.createElement("canvas"),
           start : function() {
-              this.canvas.width = 640;
+              this.canvas.width = 320;
               this.canvas.height = 360;
               this.context = this.canvas.getContext("2d");
               var myGame = document.getElementById("game");
